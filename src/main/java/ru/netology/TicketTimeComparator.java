@@ -9,5 +9,5 @@ public class TicketTimeComparator implements Comparator<Ticket> {
         int time2 = o2.getTimeTo() - o2.getTimeFrom();
         return time1 - time2;
     }
-    }
+}
 
